@@ -2,6 +2,10 @@
 from functions.load import load_tasks
 from functions.display import display_tasks
 from functions.add import add_task
+from functions.change import change_task_status
+from functions.edit import edit_task
+from functions.save import save_tasks
+from funcitons.delete import delete_task
 
 def main():
     filename = "tasks.txt"
