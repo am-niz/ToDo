@@ -5,7 +5,7 @@ from functions.add import add_task
 from functions.change import change_task_status
 from functions.edit import edit_task
 from functions.save import save_tasks
-from funcitons.delete import delete_task
+from functions.delete import delete_task
 
 def main():
     filename = "tasks.txt"
