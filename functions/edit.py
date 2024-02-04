@@ -1,3 +1,5 @@
+from display import display_tasks
+
 def edit_task(tasks):
     display_tasks(tasks)
     task_number = int(input("Enter task number to edit: "))
