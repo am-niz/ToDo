@@ -6,6 +6,7 @@ from functions.change import change_task_status
 from functions.edit import edit_task
 from functions.save import save_tasks
 from functions.delete import delete_task
+from functions.progress import task_progress
 
 
 def main():

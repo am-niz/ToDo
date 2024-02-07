@@ -1,4 +1,4 @@
-from display import display_tasks
+from functions.display import display_tasks
 
 def task_progress(tasks):
     display_tasks(tasks)
