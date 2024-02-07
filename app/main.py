@@ -8,7 +8,6 @@ from functions.save import save_tasks
 from functions.delete import delete_task
 from functions.progress import task_progress
 
-
 def main():
     filename = "tasks.txt"
     tasks = load_tasks(filename)
