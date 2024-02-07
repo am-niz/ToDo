@@ -20,6 +20,7 @@ from change import change_task_status
 from edit import edit_task
 from save import save_tasks
 from delete import delete_task
+from progress import task_progress
 
 def main():
     filename = "tasks.txt"
@@ -31,8 +32,9 @@ def main():
         print("2. Add Task")
         print("3. Edit Task")
         print("4. Change Task Status")
-        print("5. Delete Task")
-        print("6. Save and Exit")
+        print("5. Change the progress of the tasks")
+        print("6. Delete Task")
+        print("7. Save and Exit")
 
         choice = input("Enter your choice: ")
 
@@ -45,11 +47,12 @@ def main():
         elif choice == '4':
             change_task_status(tasks)
         elif choice == '5':
-            delete_task(tasks)
+            task_progress(tasks)
         elif choice == '6':
+            delete_task(tasks)
+        elif choice == '7':
             save_tasks(tasks, filename)
             print("Tasks saved. Exiting.")
-            break
         else:
             print("Invalid choice. Please try again.")
 
