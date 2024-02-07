@@ -9,4 +9,5 @@ This Python To-Do List Program allows users to manage their tasks effectively. I
 - **Delete Task**: Remove tasks that are no longer needed.
 - **Change Task Status**: Update tasks as pending or done.
 - **Save Tasks**: All tasks are saved to a file for persistence.
+- **Progress Check**: Can check the tasks Progress by its persentage of completion.
 

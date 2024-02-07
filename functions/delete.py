@@ -1,4 +1,5 @@
-from display import display_tasks
+
+from functions.display import display_tasks
 
 def delete_task(tasks):
     display_tasks(tasks)
